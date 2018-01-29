@@ -1,0 +1,16 @@
+{
+    "name": "Task Board",
+    "className": "Rally.apps.taskboard.TaskBoardApp",
+    "server": "https://rally1.rallydev.com",
+    "sdk": "2.1",
+    "javascript": [
+        "ColumnCardFieldPicker.js",
+        "ColumnSettingsField.js",
+        "Settings.js",
+        "TaskBoardHeader.js",
+        "TaskBoardApp.js"
+    ],
+    "css": [
+        "TaskBoardApp.css"
+    ]
+}

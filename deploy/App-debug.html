@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Board</title>
+
+
+    <script type="text/javascript" src="https://rally1.rallydev.com/apps/2.1/sdk-debug.js"></script>
+
+    <script type="text/javascript">
+        Rally.loadScripts(
+                [
+                      "ColumnCardFieldPicker.js",
+                      "ColumnSettingsField.js",
+                      "Settings.js",
+                      "TaskBoardHeader.js",
+                      "TaskBoardApp.js",
+                ],
+        function() {
+            Rally.launchApp('Rally.apps.taskboard.TaskBoardApp', {
+                name:"Task Board"
+            });
+        }, true);
+    </script>
+
+
+    <link rel="stylesheet" type="text/css" href="TaskBoardApp.css"/>
+</head>
+<body>
+</body>
+</html>
